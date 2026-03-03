@@ -53,19 +53,19 @@ Inicialmente, realizamos:
 - Identificação de valores faltantes
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_head.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/mercado-alugueis-sp/images/df_head.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_tail.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/mercado-alugueis-sp/images/df_tail.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_info.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/df_info.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_columns_linhas.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/df_columns_linhas.png" width="50%"/>
 </div>
 
 ---
@@ -86,15 +86,15 @@ Principais observações:
 Essa grande dispersão indica **alta desigualdade dentro do mercado imobiliário paulista**.
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_describe_numeric.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/df_describe_numeric.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_describe_objetc.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/df_describe_objetc.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/imoveis_por_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/imoveis_por_categoria.png" width="50%"/>
 </div>
 
 ---
@@ -108,7 +108,7 @@ O boxplot evidenciou:
 - Extrema variação nos valores de aluguel
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/distribuicao_alugueis.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/distribuicao_alugueis.png" width="50%"/>
 </div>
 
 ---
@@ -120,7 +120,7 @@ O histograma revelou uma **distribuição assimétrica com cauda longa à direit
 Isso reforça a desigualdade presente na cidade.
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/histograma_valores_aluguel.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/histograma_valores_aluguel.png" width="50%"/>
 </div>
 
 ---
@@ -133,7 +133,7 @@ Ao analisar as variáveis categóricas:
 - Resultado esperado, considerando a verticalização da cidade
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/distribuicao_quantidade_quartos.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/distribuicao_quantidade_quartos.png" width="50%"/>
 </div>
 
 ---
@@ -147,7 +147,7 @@ Ao analisar as variáveis categóricas:
 - Maioria entre **0 e 2 vagas**
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/distribuicao_quantidade_garagens.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/distribuicao_quantidade_garagens.png" width="50%"/>
 </div>
 
 ---
@@ -166,7 +166,7 @@ Como não tínhamos essa possibilidade, adotamos o critério:
 > Remover imóveis com área inferior a 10m².
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/describe_area_outlier.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/describe_area_outlier.png" width="50%"/>
 </div>
 
 ---
@@ -197,23 +197,23 @@ A premissa:
 > O bairro **Alphaville** foi removido da análise de luxo por concentrar 4 dos 10 bairros mais caros, o que nos tirava a oportunidade de explorar demais bairros.
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/top_10_alphaville.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/top_10_alphaville.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/top_10_sem_alphaville.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/top_10_sem_alphaville.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/topdescribe.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/topdescribe.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/bottomdescribe.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/bottomdescribe.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/plot_aluguel_imoveis_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/plot_aluguel_imoveis_categoria.png" width="50%"/>
 </div>
 
 ---
@@ -226,7 +226,7 @@ O boxplot mostrou uma diferença brutal entre as categorias.
 - Diferença extremamente significativa
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/aluguel_por_tipo_por_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/aluguel_por_tipo_por_categoria.png" width="50%"/>
 </div>
 
 ---
@@ -251,7 +251,7 @@ Ao comparar áreas:
 - Maior área tende a elevar o valor final.
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/area_por_tipo_por_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/area_por_tipo_por_categoria.png" width="50%"/>
 </div>
 
 ---
@@ -268,11 +268,11 @@ Ao comparar áreas:
 - 0 ou 1 vaga
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/quarto_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/quarto_categoria.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/garage_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/garage_categoria.png" width="50%"/>
 </div>
 
 ---
@@ -296,7 +296,7 @@ O heatmap revelou:
 - Área influencia indiretamente garagem
 
 <div align='center'>
-  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/heatmap_corr.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sp/images/heatmap_corr.png" width="50%"/>
 </div>
 
 ---
