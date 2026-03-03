@@ -53,19 +53,19 @@ Inicialmente, realizamos:
 - Identificação de valores faltantes
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/df_head.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_head.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/df_tail.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_tail.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/df_info.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_info.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/df_columns_linhas.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_columns_linhas.png" width="50%"/>
 </div>
 
 ---
@@ -86,15 +86,15 @@ Principais observações:
 Essa grande dispersão indica **alta desigualdade dentro do mercado imobiliário paulista**.
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/df_describe_numeric.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_describe_numeric.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/df_describe_objetc.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/df_describe_objetc.png" width="50%"/>
 </div>
 
 <div align='center'>
-  <img src="https://https://github.com/WillianMonteiro23/projetos-python/blob/main/mercado-alugueis-sao-paulo/images/imoveis_por_categoria.png" width="50%"/>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/imoveis_por_categoria.png" width="50%"/>
 </div>
 
 ---
@@ -107,7 +107,9 @@ O boxplot evidenciou:
 - Grande quantidade de **outliers**
 - Extrema variação nos valores de aluguel
 
-*(imagem aqui — boxplot de aluguel)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/distribuicao_alugueis.png" width="50%"/>
+</div>
 
 ---
 
@@ -117,7 +119,9 @@ O histograma revelou uma **distribuição assimétrica com cauda longa à direit
 
 Isso reforça a desigualdade presente na cidade.
 
-*(imagem aqui — histograma)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/histograma_valores_aluguel.png" width="50%"/>
+</div>
 
 ---
 
@@ -128,7 +132,9 @@ Ao analisar as variáveis categóricas:
 - **61,7% dos imóveis são apartamentos**
 - Resultado esperado, considerando a verticalização da cidade
 
-*(imagem aqui — gráfico de barras por tipo de imóvel)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/distribuicao_quantidade_quartos.png" width="50%"/>
+</div>
 
 ---
 
@@ -140,7 +146,9 @@ Ao analisar as variáveis categóricas:
 ### 🚗 Garagens
 - Maioria entre **0 e 2 vagas**
 
-*(imagem aqui — gráficos de distribuição)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/distribuicao_quantidade_garagens.png" width="50%"/>
+</div>
 
 ---
 
@@ -157,7 +165,9 @@ Como não tínhamos essa possibilidade, adotamos o critério:
 
 > Remover imóveis com área inferior a 10m².
 
-*(imagem aqui — limpeza dos dados)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/mercado-alugueis-sp/images/describe_area_outlier.png" width="50%"/>
+</div>
 
 ---
 
@@ -184,7 +194,27 @@ A premissa:
    - "Luxo"
    - "Popular"
 
-*(imagem aqui — criação das categorias)*
+> O bairro **Alphaville** foi removido da análise de luxo por concentrar 4 dos 10 bairros mais caros, o que nos tirava a oportunidade de explorar demais bairros.
+
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/top_10_alphaville.png" width="50%"/>
+</div>
+
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/top_10_sem_alphaville.png" width="50%"/>
+</div>
+
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/topdescribe.png" width="50%"/>
+</div>
+
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/bottomdescribe.png" width="50%"/>
+</div>
+
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/plot_aluguel_imoveis_categoria.png" width="50%"/>
+</div>
 
 ---
 
@@ -195,13 +225,9 @@ O boxplot mostrou uma diferença brutal entre as categorias.
 - Valorização superior a **10x**
 - Diferença extremamente significativa
 
-*(imagem aqui — boxplot luxo vs popular)*
-
----
-
-## Exclusão de Alphaville
-
-O bairro **Alphaville** foi removido da análise de luxo por concentrar 4 dos 10 bairros mais caros, o que distorcia a comparação.
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/aluguel_por_tipo_por_categoria.png" width="50%"/>
+</div>
 
 ---
 
@@ -214,8 +240,6 @@ Observação interessante:
 
 Isso ocorre porque studios possuem limitação estrutural de área.
 
-*(imagem aqui — gráfico comparativo por tipo)*
-
 ---
 
 ## 5.3 Área dos Imóveis(m²)
@@ -226,7 +250,9 @@ Ao comparar áreas:
 - Casas e condomínios apresentam grande variação de área.
 - Maior área tende a elevar o valor final.
 
-*(imagem aqui — gráfico de área)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/area_por_tipo_por_categoria.png" width="50%"/>
+</div>
 
 ---
 
@@ -241,7 +267,13 @@ Ao comparar áreas:
 - 1 ou 2 quartos
 - 0 ou 1 vaga
 
-*(imagem aqui — comparação estrutural)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/quarto_categoria.png" width="50%"/>
+</div>
+
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/garage_categoria.png" width="50%"/>
+</div>
 
 ---
 
@@ -263,7 +295,9 @@ O heatmap revelou:
 - `bedrooms` apresenta correlação moderada
 - Área influencia indiretamente garagem
 
-*(imagem aqui — heatmap de correlação)*
+<div align='center'>
+  <img src="https://github.com/WillianMonteiro23/projetos-python/tree/main/heatmap_corr.png" width="50%"/>
+</div>
 
 ---
 
