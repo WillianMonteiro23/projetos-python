@@ -312,3 +312,5 @@ Mais do que números, este estudo revela a estrutura social refletida nos preço
 ---
 
 📌 Projeto desenvolvido para portfólio com foco em Análise de Dados, exploração estatística e geração de insights estratégicos.
+
+
